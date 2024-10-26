@@ -1,0 +1,36 @@
+ul{
+  display: flex;
+
+    gap: 1rem;
+    align-items: center;
+    list-style-type: none;
+    justify-content: end;
+}
+.hamburger{
+    font-size: 2rem;
+     
+  display: none;
+}
+@media (max-width: 768px) {
+    ul{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+}
+
+.mobil-nav-link{
+  display: none;
+  color: black;
+}
+
+.showlink{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: black;
+  background-color: white;
+  align-items: end;
+  padding: 1rem;
+}
